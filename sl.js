@@ -95,7 +95,7 @@ var user_time = {};
     })
 
     client.on('voiceStateUpdate',  (oldState,newState) => {
-        var newData;
+        var newDate;
         if(oldState.channelId == undefined && newState.channelId != undefined){
             newDate = new Date();
             
